@@ -1,0 +1,805 @@
+body{
+    background-color: #edf797;
+    flex-wrap: wrap;
+}
+.navv{
+    display: flex;
+    justify-content: flex-end;
+        padding: 10px;
+        background-color: #B6FFCE;
+        flex-wrap: wrap;
+    }
+    .spisok{
+        padding: 10px;
+        text-transform: uppercase;
+        /* color: #d38989;
+        color: #CEF0D4; font-family: ‘Rouge Script’, cursive; font-size: 10px; font-weight: normal; line-height: 8px; margin: 0 0 5px; text-align: center; text-shadow: 1px 1px 2px #082b34; */
+        color: #d04764; font-family: ‘Original Surfer’, cursive; 
+        flex-wrap: wrap;
+    }
+    .sad {
+         display: flex;
+        justify-content: center;
+        font-size: 160px;
+                color: #c07f7f;
+                font-family: 'Alumni Sans Collegiate One', sans-serif;
+                 font-family: 'Lobster', cursive;
+                 text-transform: uppercase;
+                 flex-wrap: wrap;
+         /* color: #d04764; font-family: ‘Lobster’, cursive; font-size: 86px; font-weight: normal; line-height: 48px; margin: 0 0 18px; text-shadow: 1px 0 0 #fff;  */
+         flex-wrap: wrap;
+        }
+        .flow {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .flowers {
+        width: 400px;
+        height: 400px;
+        flex-wrap: wrap;
+    }
+      /* каталог  галерея*/
+
+    .parengalery{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* border: 5px solid rgb(60, 136, 180); */
+    }
+  
+    .gallery {
+        height: 400px;
+        border: 5px solid rgb(243, 209, 55);
+        flex-wrap: wrap;
+        padding: 3px;
+        flex-wrap: wrap;
+    }
+    .zagolovok{
+        display: flex;
+        justify-content: center;
+        font-size: 55px;
+        margin-top: 5px;
+        color: #c07f7f;
+        
+        color: #d04764; font-family: ‘Original Surfer’, cursive; 
+        flex-wrap: wrap;
+        
+    }
+     .hover-image-scale {
+        display: flex;
+        justify-content: center;
+        /* display: inline-block;  */
+        overflow: hidden; /* Скрываем всё за контуром */
+        height: 400px;
+        /* border: 5px solid rgb(194, 51, 51); */
+        flex-wrap: wrap;
+        padding: 20px;
+        flex-wrap: wrap;
+      }
+      .hover-image-scale img {
+        transition: 1s; /* Время эффекта */
+        display: block; 
+        flex-wrap: wrap;
+      }
+      .hover-image-scale img:hover {
+        transform: scale(1.5); /* Увеличиваем масштаб */
+        flex-wrap: wrap;
+      } 
+
+
+    
+/* каталог цветов */
+    .parencatalog{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+         /* border: #a1a6bb 10px solid;   */
+         flex-wrap: wrap;
+    }
+    .parenflower {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-wrap: wrap;
+          /* border: #B6FFCE 10px solid;    */
+      }
+    .kartinka{
+        flex-wrap: wrap;
+        border: 10px  green;
+        border-style: inset;  
+        border-style:double;
+     border-radius: 30%;
+    }
+
+    .mask{
+        --uiMaskClipPath: var(--maskClipPath);
+        box-sizing: var(--maskBoxSizing, border-box);
+        display: var(--maskDisplay, inline-flex);
+        padding: var(--maskStrokeThickness, 3px);
+        clip-path: var(--uiMaskClipPath);
+        background-color: var(--maskStrokeColor, currentColor);
+        --maskStrokeColor: #B6FFCE; /* Цвет рамки */
+        --maskStrokeThickness: 10px; /* Ширина рамки */ 
+        flex-wrap: wrap;
+    }
+    .mask-img{
+        max-width: 100%;
+        display: block;
+        clip-path: var(--uiMaskClipPath);
+        flex-wrap: wrap;
+    }
+    .mask, 
+    .mask-img{
+        transition: clip-path var(--maskAnimationDuration, .2s) var(--maskAnimationTimingFunction, ease-out);
+        flex-wrap: wrap;
+    }
+    /* Первая рамка */
+    .mask-one{
+        --maskClipPath: polygon(0 10%, 10% 0, 90% 0, 100% 10%, 100% 90%, 90% 100%, 10% 100%, 0 90%);
+        flex-wrap: wrap;
+    }
+    .mask-one-frame{
+        --maskAnimationDuration: .4s;
+        flex-wrap: wrap;
+    }
+    .mask-one:hover, 
+    .mask-one:focus{
+        --maskClipPath: polygon(0 0, 100% 0, 100% 10%, 100% 100%, 90% 100%, 0% 100%, 0% 90%, 0% 10%);
+        flex-wrap: wrap;
+    }
+
+
+
+  /* заголовки у цветов */
+  .name {
+    font-size: 35px;
+      /* border: #B6FFCE 10px solid;  */
+            position: relative;
+  color: #c07f7f;
+  -webkit-text-stroke: .05em rgb(48, 28, 28);
+  flex-wrap: wrap;
+}
+
+/* петунья описание и фото */
+
+.tekst{
+    color: #086326;
+    font-size: 30px;
+    text-decoration: dotted;
+    text-indent: 30px;
+    flex-wrap: wrap;
+}
+.parenpetynia{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+     /* border: #222925 10px solid;   */
+}
+.parenpetyni {
+display: flex;
+flex-direction: column;
+align-items: center;
+ /* border: #ec9c76 10px groove;  */
+ flex-wrap: wrap;
+ border-radius: 10%;
+ /* border: #16944c 10px solid; */
+ flex-wrap: wrap;
+}
+
+.petya {
+    font-size: 22px;
+    padding: 10px;
+    flex-wrap: wrap;  
+    align-self: center; 
+    flex-wrap: wrap;
+    /* border: #e0c135 20px solid;  */
+}
+.bakopatekst {
+    font-size: 22px;
+    padding: 10px;
+    flex-wrap: wrap;  
+    align-self: center; 
+    line-height: 2.5;
+    margin-left: 60px;
+       /* border: #e0c135 20px solid;  */
+       flex-wrap: wrap;
+    }
+.fotobakopa{
+    border-radius: 30%;
+    flex-wrap: wrap;
+}
+/* отступ в абзаце */
+.abzac {
+   text-indent: 30px; 
+   flex-wrap: wrap;
+}
+.petyniabutton{
+    padding: 10px;
+    border-radius: 20%;
+    background-color: #e6b6b6;
+    font-size: 15px;
+    text-transform: uppercase;
+    -webkit-text-stroke: .08em rgb(136, 16, 16);
+    flex-wrap: wrap;
+  }
+  .petyniabutton:hover{
+    background-color: #f7ec5f;
+    flex-wrap: wrap;
+}
+  .podcherkivanie{
+    text-decoration: none;
+    flex-wrap: wrap;
+  }
+ /* Калиброхоа */
+
+  /* Здесь обязательно надо добавить высоту и ширину. А последнее значение - для эффекта, как в 3D*/
+  .flip-card {
+    /* background-color: rgb(58, 51, 52);  */
+    width: 25%;
+    height: 200px;
+    border: 1px solid none;
+    perspective: 1000px;  
+    /* border: #cca72b 10px solid; */
+    /* margin-top: 170px;
+    */
+    flex-wrap: wrap;
+      
+}
+    /* Этот контейнер нужен для позиционирования переда и обратной стороны фото */
+    .flip-card-inner {
+        position: relative;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    transition: transform 0.3s;
+    transform-style: preserve-3d;
+    /* border: #1e4e2e 10px solid; */
+    flex-wrap: wrap;
+    }
+    /* Поворот горизонтальный */
+    .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    flex-wrap: wrap;
+
+    }
+    /* Позиционирования переда и обратной стороны фото на телефоне */
+    .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    /* border: #1c2b21 10px solid; */
+    flex-wrap: wrap;
+    }
+    /* Стиль переда и обратной стороны фото */
+    .flip-card-back {
+        
+    color: rgb(192, 44, 44);
+    transform: rotateY(180deg);
+    flex-wrap: wrap;
+    }
+    .imgkalibro{
+       
+        width: 80%;
+       
+               border-radius: 15%;
+               position:relative;
+               flex-wrap: wrap;
+       align-content: flex-start;
+            }
+
+                
+    .nameflower {
+    font-size: 35px;
+    /* border: #B6FFCE 10px  solid;  */
+    position: relative;
+    background-color: #edf797;
+     color: #c07f7f;
+    -webkit-text-stroke: .05em rgb(48, 28, 28);
+    flex-wrap: wrap;
+        }
+        .nameflowertwo {
+            font-size: 35px;
+            /* border: #B6FFCE 10px  solid;  */
+            position: relative;
+            background-color: #edf797;
+             color: #c07f7f;
+            -webkit-text-stroke: .05em rgb(48, 28, 28);
+            flex-wrap: wrap;
+                }
+        
+        .parenkalibra{
+            display: flex;
+            justify-content: center;
+            
+            /* max-width: 10000px;
+            margin: 0 auto;  */
+            /*margin-left: 700px; */
+            align-self: flex-start;
+            /* border: #222925 10px solid;   */
+            flex-wrap: wrap;
+            }
+            .parenkalibradop{
+                display: flex;
+                justify-content: center;
+                 align-self: flex-start; 
+                margin-top: 480px;
+                flex-wrap: wrap;
+                }
+/* гортензии */
+                .flowersgortensia {
+                    width: 100%; 
+                   
+                    flex-wrap: wrap;
+                                          } 
+
+                                                     
+    .abzacgortenzii  {
+        margin-left: 50px;
+        flex-wrap: wrap;
+    }      
+    .parengortengi{
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+       
+         border: #222925 10px solid;  
+         flex-wrap: wrap;
+        }
+    .parengortengia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+         /* border: #ec9c76 10px groove;  */
+         flex-wrap: wrap;
+         border-radius: 10%;
+         /* border: #16944c 10px solid; */
+     border: #16944c 10px solid;
+     flex-wrap: wrap;
+    }
+
+/* примула */
+.fotoprimula{
+    border-radius: 30%;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.flowersklematis{
+    width: 15%; 
+        border-radius: 30%;
+        flex-wrap: wrap;
+} 
+/* гладиолусы */
+.gladiolusfoto{
+       
+    width: 100%;
+   
+           border-radius: 10%;
+           position:relative;
+           flex-wrap: wrap;
+        }
+        
+        .gladiolusparent{
+            /* border: #16944c 10px solid;  */
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+
+        .gladilname{
+            /* border: #1e3026 10px solid;  */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            flex-wrap: wrap;
+        }
+        .gladilnametwo{
+            /* border: #1e3026 10px solid;  */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            width: 700px;
+            flex-wrap: wrap;
+        }
+/* каталог */
+        .flowercatalog {
+            width: 17%; 
+           padding: 10px;
+           flex-wrap: wrap;
+            
+                                  } 
+
+   
+.tekstonas{
+    color: #10662d;
+    font-size: 25px;
+    flex-wrap: wrap;
+    text-indent: 30px;
+} 
+.tekstonass{
+    color: #10662d;
+    font-size: 45px;
+    flex-wrap: wrap;
+    text-indent: 30px;
+} 
+.parenonas{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}   
+.deyzagolovok  {
+    align-items: center;
+   
+    font-size: 35px;
+    flex-wrap: wrap;
+}
+.nasbutteno {
+    color: #10662d;
+    flex-wrap: wrap;
+}
+.nasbutteno:hover {
+    color: #B6FFCE;
+    background-color: #c07f7f;
+    flex-wrap: wrap;
+} 
+/* о нас */
+.flowercatalogonas {
+    width: 40%; 
+   padding: 15px;
+   margin-left: 130px;
+   color: #10662d;
+   flex-wrap: wrap;                     } 
+.butcatalog{
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+.butcatalog:hover {
+    color: #10662d;
+    background-color: #c07f7f;
+    flex-wrap: wrap;
+}
+
+table {
+    border: #9f5f80 5px groove;
+    font-size: 20px;
+   }
+ td {border: #ffba93 5px outset;
+     background-color: #ff8e71;}
+ 
+th { border:#ffba93 3px outset ;
+     background-color: #ffba93 ;}
+
+     .parenbutindex{
+        display: flex;
+        justify-content: center;
+     }
+     .buttonindex{
+       /* padding: 30px;
+        flex: 1;
+  */
+       text-decoration: none;
+      font-size: 70px;
+      
+
+      color:#edf797;
+      background-color: #c07f7f;
+      font-family: 'Alumni Sans Collegiate One', sans-serif;
+       font-family: 'Lobster', cursive;
+    
+
+
+       background-color: #e6b6b6;
+       flex-wrap: wrap;
+     }
+
+
+ .Anastaisha{
+            text-align: center;
+            font-size: 12px;
+        
+            text-decoration: none;
+            color: #070707;
+          }
+.Anas{display:flex; 
+justify-content: center;}
+    
+   /* Размер: iPhone  средний телефон*/
+ @media all and (max-width: 800px) 
+ {
+     .sad{
+         font-size: 300%;
+     }
+ 
+ .navv{
+     font-size: 100%;
+ }
+
+ .zagolovok{
+     font-size: 100%;
+ }
+ .zagolovok{
+     font-size: 200%;
+ }
+ .tekst,.tekstonas,.tekstonass,.deyzagolovok{
+     font-size: 150%;
+ }
+ .bakopatekst,.abzac{
+     font-size: 100%;
+     
+       
+ }
+ .nameflower{
+     font-size: 160%;
+ }
+ 
+ .imgkalibro{
+        
+     width: 100%;
+   
+        
+            flex-wrap: wrap;
+    align-content: flex-start;
+         }
+   
+    .parenkalibra{
+            display: flex;
+            justify-content: center;
+            
+            /* max-width: 10000px;
+            margin: 0 auto;  */
+            /*margin-left: 700px; */
+            align-self: flex-start;
+            /* border: #222925 10px solid;   */
+      
+            flex-wrap: wrap;
+      align-content: flex-start;
+            }
+            .parenkalibradop{
+                display: flex;
+                justify-content: center;
+               margin-top: -1px;
+              
+                flex-wrap: wrap;
+              align-content: flex-start;
+                }
+   .flip-card {
+                           
+                            width: 70%;
+                            height: 750px;
+                            border: 1px solid none;
+                            perspective: 1000px;  
+                            flex-wrap: wrap;
+                              
+                        }
+
+   
+   
+      
+         .petya {
+             font-size: 100%;
+         }
+         .fotobakopa{
+          
+           
+              justify-content: center;
+         }
+   .parenpetyni {
+display: flex;
+flex-direction: column;
+align-items: center;
+   
+ /* border: #ec9c76 10px groove;  */
+ flex-wrap: wrap;
+
+}
+   .parenpetynia{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+        
+}
+
+ 
+             .name{
+     font-size: 300%;
+      justify-content: center;
+               
+ }
+         table{
+             font-size: 100%;
+         }
+       
+           .hover-image-scale {
+                   
+           
+              /* Скрываем всё за контуром */
+              height: 100%;
+             width: 100%;
+             /* border: 5px solid rgb(194, 51, 51); */
+             flex-wrap: wrap;
+             
+     
+           }
+     
+ 
+       .flowercatalogonas {
+     width: 100%; 
+     padding: 15px;
+     margin-left: -15px;
+    
+     flex-wrap: wrap; 
+ 
+ 
+    .flowersklematis{
+     width: 90%;
+    }
+    .buttonindex{
+     font-size: 50px;
+    }
+ }
+
+ }
+     
+   /* Размер: iPhone  маленький телефон*/
+ @media all and (max-width: 500px) 
+ {
+     .sad{
+         font-size: 200%;
+       
+     }
+ 
+ .navv{
+     font-size: 80%;
+ }
+
+ .zagolovok{
+     font-size: 100%;
+ }
+ .zagolovok{
+     font-size: 100%;
+ }
+ .tekst,.tekstonas,.tekstonass,.deyzagolovok{
+     font-size: 100%;
+ }
+ .bakopatekst,.abzac{
+     font-size: 100%;
+           
+ }
+   .bakopatekst {
+    font-size: 100%;
+    padding: 10px;
+    flex-wrap: wrap;  
+    align-self: center; 
+   line-height: 1;
+           /* border: #e0c135 20px solid;  */
+       flex-wrap: wrap;
+     
+    margin-left: -1px;
+    }
+   
+   
+  
+ .nameflower{
+     font-size: 100%;
+ }
+ 
+ .imgkalibro{
+        
+     width: 100%;
+   
+        
+            flex-wrap: wrap;
+    align-content: flex-start;
+         }
+   
+    .parenkalibra{
+            display: flex;
+            justify-content: center;
+            
+            /* max-width: 10000px;
+            margin: 0 auto;  */
+            /*margin-left: 700px; */
+            align-self: flex-start;
+            /* border: #222925 10px solid;   */
+      
+            flex-wrap: wrap;
+      align-content: flex-start;
+            }
+            .parenkalibradop{
+                display: flex;
+                justify-content: center;
+               margin-top: -1px;
+              
+                flex-wrap: wrap;
+              align-content: flex-start;
+                }
+   .flip-card {
+                           
+                            width: 70%;
+                            height: 400px;
+                            border: 1px solid none;
+                            perspective: 1000px;  
+                            flex-wrap: wrap;
+                              
+                        }
+
+   
+   
+      
+         .petya {
+             font-size: 100%;
+         }
+         .fotobakopa{
+          
+           
+              justify-content: center;
+         }
+   .parenpetyni {
+display: flex;
+flex-direction: column;
+align-items: center;
+   
+ /* border: #ec9c76 10px groove;  */
+ flex-wrap: wrap;
+
+}
+   .parenpetynia{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+        
+}
+
+ 
+             .name{
+     font-size: 300%;
+      justify-content: center;
+               
+ }
+         table{
+             font-size: 50%;
+         }
+       
+           .hover-image-scale {
+                   
+           
+              /* Скрываем всё за контуром */
+              height: 100%;
+             width: 100%;
+             /* border: 5px solid rgb(194, 51, 51); */
+             flex-wrap: wrap;
+             
+     
+           }
+     
+ 
+       .flowercatalogonas {
+     width: 100%; 
+     padding: 15px;
+     margin-left: -15px;
+    
+     flex-wrap: wrap; 
+ 
+ 
+    .flowersklematis{
+     width: 90%;
+    }
+    .buttonindex{
+     font-size: 50px;
+    }
+ }
+    .parencatalog{
+       margin-left:7%;
+    }
+
+ }
+   
